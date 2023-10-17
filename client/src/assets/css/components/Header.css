@@ -8,20 +8,54 @@
     src: url('../../font/Popsies.ttf');
       /* src: url('../../font/SensaBrush-FillDemo.otf'); */
 }
-
-
+@font-face {
+    font-family: 'TripSans';
+    src: url('../../font/trip-sans-medium.otf');
+      /* src: url('../../font/SensaBrush-FillDemo.otf'); */
+}
+.full-logo{
+    display: flex;
+    align-items: center;
+    /* width: 188px; */
+    gap: 10px;
+}
+.full-logo:hover{
+    cursor: pointer;
+}
+.very-full-logo{
+    align-items: center;
+    display: flex;
+    width: 200px;
+}
+.logo{
+    height: 40px;
+}
 
 .container{ 
+    margin: 10px 0;
     display: flex;
-    align-items: baseline;
+    align-items: center;
+    justify-content: space-between;
 }
 .site-title{
     font-family: 'Archive Antiqua Extra Cond Regular';
-    margin-right: 60px;
+    font-size: 25px;
 }
 .slogan{
     font-family: 'MyPopsies';
-    font-size: 24px;
+    font-size: 16px;
+}
 
-
+.connection{
+    background-color: black;
+    padding: 10px 16px;
+    color: white;
+    border-radius: 50px;
+    border: none;
+    font-size: 16px;
+    font-family: 'TripSans';
+}
+.connection:hover{
+    cursor: pointer;
+    opacity: 0.8;
 }
