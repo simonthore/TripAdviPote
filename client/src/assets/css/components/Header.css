@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'Archive Antiqua Extra Cond Regular';
+    src: url('../../font/archive-antiqua-extra-cond_bigfontsite.com.otf');
+}
+
+@font-face {
+    font-family: 'MyPopsies';
+    src: url('../../font/Popsies.ttf');
+      /* src: url('../../font/SensaBrush-FillDemo.otf'); */
+}
+
+
+
+.container{ 
+    display: flex;
+    align-items: baseline;
+}
+.site-title{
+    font-family: 'Archive Antiqua Extra Cond Regular';
+    margin-right: 60px;
+}
+.slogan{
+    font-family: 'MyPopsies';
+    font-size: 24px;
+
+
+}
