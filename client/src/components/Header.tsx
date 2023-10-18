@@ -15,6 +15,12 @@ export default function Header() {
                     </div>
                     <p className="slogan">"Des potes, des notes"</p>
                 </div>
+                <div className="sub-title">
+                    <a>Découvrir</a>
+                    <a>Préparer un voyage</a>
+                    <a>Participer</a>
+                    <a>Plus</a>
+                </div>
                 <button className="connection">connectez-vous</button>
             </div>
         </>
